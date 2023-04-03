@@ -1,0 +1,73 @@
+.fontapply {
+  font-family: "Nunito", sans-serif;
+}
+
+.tablesubject{
+    margin: auto;
+    width: 50%;
+}
+.tabletd td{
+    cursor: pointer;
+}
+.tabletd{
+    width: 400px;
+    margin: auto;
+    background-color: rgba(200, 247, 197);
+}
+.tabletd td:hover{
+color: blue;
+text-decoration: underline;
+}
+
+.tablefontapply {
+    font-family: "Ubuntu", sans-serif;
+  }
+  /* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F8F005;
+  } */
+  
+ .dashbutton{
+    border-radius: 4px;
+    background-color: #5ca1e1;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding: 16px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 20px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+ }
+  
+  .dashbutton:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .dashbutton:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+  .dashbutton:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+
+  .chart-bar {
+    display: none;
+  }

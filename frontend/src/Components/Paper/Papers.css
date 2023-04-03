@@ -1,0 +1,34 @@
+.papers {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px 40px;
+  /* margin-right: 120px;
+  margin-left: 120px; */
+  /* box-shadow: 0 10px 25px #8b000093; */
+  box-shadow: 0 10px 25px #d6cd5093;
+  width: auto;
+  margin: auto;
+}
+.papers:hover {
+  cursor: pointer;
+}
+.papers:hover {
+  opacity: 1;
+  transform: scale(1.02);
+  cursor: pointer;
+  border-radius: 20px;
+}
+.papers:not(:hover) {
+  opacity: 0.9;
+  transform: scale(1);
+  border-radius: 20px;
+}
+.btn {
+  height: 50px;
+}
+@media screen and (max-width: 900px) {
+  .papers {
+    width: auto;
+    margin: auto;
+  }
+}

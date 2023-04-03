@@ -1,0 +1,36 @@
+.paperque {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px 40px;
+
+  box-shadow: 0 10px 25px #ddd23293;
+  width: 900px;
+  margin: auto;
+}
+.bgpaperque {
+  background-color: rgb(147, 250, 165);
+}
+.paperque:hover {
+  opacity: 1;
+  transform: scale(1.02);
+  cursor: pointer;
+  border-radius: 20px;
+}
+.paperque:not(:hover) {
+  opacity: 0.9;
+  transform: scale(1);
+  border-radius: 20px;
+}
+.radioadjustmodal {
+  margin-left: -130px;
+}
+.radioadjustpaper {
+  margin-left: -120px;
+}
+
+@media screen and (max-width: 900px) {
+  .paperque {
+    width: auto;
+    margin: auto;
+  }
+}
